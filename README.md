@@ -15,4 +15,4 @@ WALLETADDRESS=""
 APPNAME=helloworld_"${WALLETADDRESS:4:6}"
 leo new "${APPNAME}"
 PATHTOAPP=$(realpath -q $APPNAME)
-cd $PATHTOAPP && cd ..
+cd $PATHTOAPP && cd
