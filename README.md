@@ -9,7 +9,7 @@ git clone https://github.com/AleoHQ/snarkOS.git --depth 1
 cd snarkOS
 ./build_ubuntu.sh
 cargo install --path .
-cd $HOME
+cd $
 mkdir demo_deploy_Leo_app && cd demo_deploy_Leo_app
 WALLETADDRESS=""
 APPNAME=helloworld_"${WALLETADDRESS:4:6}"
