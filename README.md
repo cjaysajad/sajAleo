@@ -4,13 +4,11 @@ rustup update stable
 rustup default stable
 git clone https://github.com/AleoHQ/leo
 apt install clang gcc libssl-dev pkg-config
-
 cargo install --path .
 git clone https://github.com/AleoHQ/snarkOS.git --depth 1
 cd snarkOS
 ./build_ubuntu.sh
 cargo install --path
-
 cd $
 mkdir demo_deploy_Leo_app && cd demo_deploy_Leo_app
 WALLETADDRESS=""
